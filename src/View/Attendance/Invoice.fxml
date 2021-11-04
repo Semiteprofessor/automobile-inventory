@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="744.0" prefWidth="1368.0" stylesheets="@../../css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Attendance.InvoiceController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="661.0" layoutX="326.0" layoutY="96.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="756.0" />
+      <Pane layoutX="-7.0" prefHeight="81.0" prefWidth="1375.0" style="-fx-background-color: #ff3b49;" stylesheets="@../../../../School/src/css/main.css">
+         <children>
+            <Text fill="WHITE" layoutX="374.0" layoutY="56.0" lineSpacing="200.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-center" text="Invoice" wrappingWidth="513.3333892822266">
+               <font>
+                  <Font name="Ubuntu Bold" size="67.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="380.0" layoutY="75.0" lineSpacing="200.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-center" text="Inventory Management" wrappingWidth="233.3333511352539">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnBack" layoutX="8.0" layoutY="1.0" mnemonicParsing="false" onAction="#btnBackHomeOnAction" prefHeight="68.0" prefWidth="76.0" style="-fx-background-color: transparent;" stylesheets="@../../css/School.css">
+               <graphic>
+                  <ImageView fitHeight="73.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/images%20(4).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <styleClass>
+                  <String fx:value="hover-hand" />
+                  <String fx:value="hover-color" />
+               </styleClass>
+            </Button>
+            <ImageView fitHeight="75.0" fitWidth="191.0" layoutX="847.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/icons8_Bill_96px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <AnchorPane fx:id="rootAnchorPane" layoutX="-1.0" layoutY="86.0" prefHeight="756.0" prefWidth="1369.0" stylesheets="@../../../../School/src/css/School.css">
+         <children>
+            <AnchorPane layoutY="-8.0" prefHeight="756.0" prefWidth="1369.0" stylesheets="@../../../../School/src/css/main.css" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button fx:id="printReportCard" alignment="CENTER" contentDisplay="TOP" layoutX="76.0" layoutY="150.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#printReportCard" prefHeight="116.0" prefWidth="132.0" text="Print Invoice">
+                     <font>
+                        <Font name="Ubuntu Bold" size="22.0" />
+                     </font>
+                     <effect>
+                        <Lighting diffuseConstant="1.21" specularConstant="0.0" specularExponent="40.0" surfaceScale="10.0">
+                           <bumpInput>
+                              <Shadow height="32.86" radius="16.6725" width="35.83" />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant azimuth="199.88" elevation="91.05" />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <graphic>
+                        <ImageView fitHeight="70.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/icons8_Print_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <stylesheets>
+                        <URL value="@../../../../School/src/css/main.css" />
+                        <URL value="@../../../../School/src/css/School.css" />
+                     </stylesheets>
+                     <styleClass>
+                        <String fx:value="card" />
+                        <String fx:value="hover-color1" />
+                        <String fx:value="hover-hand" />
+                        <String fx:value="Button1" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="updateReportCard" contentDisplay="TOP" layoutX="75.0" layoutY="320.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#updateReportCard" prefHeight="116.0" prefWidth="132.0" text="Update Receipt">
+                     <font>
+                        <Font name="Ubuntu Bold" size="22.0" />
+                     </font>
+                     <effect>
+                        <Lighting diffuseConstant="1.21" specularConstant="0.0" specularExponent="40.0" surfaceScale="10.0">
+                           <bumpInput>
+                              <Shadow height="32.86" radius="16.6725" width="35.83" />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant azimuth="199.88" elevation="91.05" />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <stylesheets>
+                        <URL value="@../../../../School/src/css/main.css" />
+                        <URL value="@../../../../School/src/css/School.css" />
+                     </stylesheets>
+                     <styleClass>
+                        <String fx:value="card" />
+                        <String fx:value="hover-color1" />
+                        <String fx:value="hover-hand" />
+                        <String fx:value="Button1" />
+                     </styleClass>
+                     <graphic>
+                        <ImageView fitHeight="59.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/upgrade-logo.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Line endX="135.0" layoutX="487.0" layoutY="218.0" startX="-131.0" stroke="#005b39" strokeWidth="2.0" />
+                  <Text fill="#005b39" layoutX="946.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plot 633, Akin Adesola Street, VI, Lagos" textAlignment="RIGHT" wrappingWidth="112.00000256299973">
+                     <font>
+                        <Font name="Ubuntu Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="331.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Specialised on Automobile Bodywork, Panel Beating, Spray-Painting, Upholstering, Electrical/Mechanical work and AC (Air Condition) repairs." textAlignment="CENTER" wrappingWidth="633.0001024268568">
+                     <font>
+                        <Font name="Fira Code Bold" size="14.5" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="72.0" fitWidth="114.0" layoutX="338.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/Car_Engine_-_Dashboard_Lights_68-512.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER_LEFT" layoutX="417.0" layoutY="16.0" prefHeight="57.0" prefWidth="636.0" style="-fx-background-color: #005b39;">
+                     <children>
+                        <Text fill="#005b39" lineSpacing="200.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-center" text="INEH MIC AUTOMOBILE COMPANY LTD." textAlignment="CENTER" wrappingWidth="659.9999084472656">
+                           <font>
+                              <Font name="Ubuntu Bold" size="30.0" />
+                           </font>
+                           <effect>
+                              <DropShadow blurType="ONE_PASS_BOX" color="WHITE" height="35.07" radius="14.26" spread="1.0" width="23.97" />
+                           </effect>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <Line endX="66.0" endY="-14.777328491210938" layoutX="884.0" layoutY="147.0" startX="66.0" startY="-63.414215087890625" stroke="#005b39" strokeWidth="2.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00754c" height="38.0" layoutX="619.0" layoutY="139.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="126.0" />
+                  <Text fill="#fcfcfc" layoutX="630.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invoice">
+                     <font>
+                        <Font name="Ubuntu Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <JFXTextField fx:id="clmGradingPeriod" labelFloat="true" layoutX="344.0" layoutY="185.0" prefHeight="17.0" prefWidth="178.0" promptText="Customer Name" />
+                  <Line endX="104.33331298828125" layoutX="767.0" layoutY="218.0" startX="-131.0" stroke="#005b39" strokeWidth="2.0" />
+                  <JFXTextField fx:id="clmGradingPeriod1" labelFloat="true" layoutX="624.0" layoutY="185.0" prefHeight="17.0" prefWidth="178.0" promptText="Contact Number" />
+                  <Text fill="#005b39" layoutX="901.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10/10/2019" textAlignment="CENTER" wrappingWidth="152.00000256299973">
+                     <font>
+                        <Font name="Ubuntu Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Line endX="135.0" layoutX="488.0" layoutY="257.0" startX="-131.0" stroke="#005b39" strokeWidth="2.0" />
+                  <JFXTextField fx:id="clmGradingPeriod2" labelFloat="true" layoutX="345.0" layoutY="224.0" prefHeight="17.0" prefWidth="178.0" promptText="E-Mail Address" />
+                  <Line endX="135.0" layoutX="768.0" layoutY="257.0" startX="-131.0" stroke="#005b39" strokeWidth="2.0" />
+                  <JFXTextField fx:id="clmGradingPeriod11" labelFloat="true" layoutX="625.0" layoutY="224.0" prefHeight="17.0" prefWidth="178.0" promptText="Registration Number" />
+                  <Line endX="135.0" layoutX="933.0" layoutY="218.0" startX="-39.0" stroke="#005b39" strokeWidth="2.0" />
+                  <JFXTextField fx:id="clmGradingPeriod12" labelFloat="true" layoutX="885.0" layoutY="185.0" prefHeight="17.0" prefWidth="178.0" promptText="Vehicle Make" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9f0ff" height="277.0" layoutX="349.0" layoutY="271.0" stroke="#005b39" strokeType="INSIDE" strokeWidth="3.0" width="712.0" />
+                  <Line endX="66.0" endY="50.88934326171875" layoutX="549.0" layoutY="447.0" startX="66.0" startY="-173.44400024414062" stroke="#005b39" strokeWidth="2.0" />
+                  <Line endX="28.0" endY="3.0517578125E-5" layoutX="694.0" layoutY="313.0" startX="-172.0" startY="3.0517578125E-5" stroke="#005b39" strokeWidth="2.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00754c" height="43.0" layoutX="351.0" layoutY="273.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="710.0" />
+                  <Line endX="66.0" endY="-131.11065673828125" layoutX="549.0" layoutY="446.0" startX="66.0" startY="-173.44400024414062" stroke="WHITE" strokeWidth="2.0" />
+                  <Line endX="66.0" endY="51.88934326171875" layoutX="682.0" layoutY="446.0" startX="66.0" startY="-173.44400024414062" stroke="#005b39" strokeWidth="2.0" />
+                  <Line endX="66.0" endY="-131.11065673828125" layoutX="682.0" layoutY="446.0" startX="66.0" startY="-173.44400024414062" stroke="WHITE" strokeWidth="2.0" />
+                  <Line endX="66.0" endY="94.0" layoutX="827.0" layoutY="452.0" startX="66.0" startY="-173.44400024414062" stroke="#005b39" strokeWidth="2.0" />
+                  <Line endX="66.0" endY="-131.11065673828125" layoutX="827.0" layoutY="446.0" startX="66.0" startY="-173.44400024414062" stroke="WHITE" strokeWidth="2.0" />
+                  <Text fill="#fcfcfc" layoutX="394.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRODUCT NAME">
+                     <font>
+                        <Font name="Ubuntu Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fcfcfc" layoutX="624.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUANTITY">
+                     <font>
+                        <Font name="Ubuntu Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fcfcfc" layoutX="769.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AMOUNT">
+                     <font>
+                        <Font name="Ubuntu Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fcfcfc" layoutX="946.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL">
+                     <font>
+                        <Font name="Ubuntu Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#005b39" layoutX="641.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUM TOTAL (N)">
+                     <font>
+                        <Font name="Ubuntu Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <Line endX="367.0" endY="6.103515625E-5" layoutX="694.0" layoutY="591.0" startX="-342.0" startY="1.220703125E-4" stroke="#005b39" strokeWidth="2.0" />
+                  <Line endX="-311.3333435058594" endY="1.220703125E-4" layoutX="1165.0" layoutY="521.0" startX="-333.33331298828125" startY="1.220703125E-4" stroke="#005b39" strokeWidth="3.0" />
+                  <Line endX="-311.3333435058594" endY="1.220703125E-4" layoutX="1165.0" layoutY="526.0" startX="-333.33331298828125" startY="1.220703125E-4" stroke="#005b39" strokeWidth="3.0" />
+                  <JFXTextField fx:id="clmGradingPeriod3" labelFloat="true" layoutX="378.0" layoutY="321.0" prefHeight="30.0" prefWidth="201.0" promptText="Enter Product Name" />
+                  <JFXTextField fx:id="clmGradingPeriod31" labelFloat="true" layoutX="378.0" layoutY="365.0" prefHeight="30.0" prefWidth="201.0" promptText="Enter Product Name" />
+                  <JFXTextField fx:id="clmGradingPeriod32" labelFloat="true" layoutX="379.0" layoutY="410.0" prefHeight="30.0" prefWidth="201.0" promptText="Enter Product Name" />
+                  <JFXTextField fx:id="clmGradingPeriod311" labelFloat="true" layoutX="379.0" layoutY="463.0" prefHeight="30.0" prefWidth="201.0" promptText="Enter Product Name" />
+                  <JFXTextField fx:id="clmGradingPeriod21" labelFloat="true" layoutX="352.0" layoutY="558.0" prefHeight="31.0" prefWidth="371.0" promptText="Amount in words" />
+                  <JFXTextField fx:id="clmGradingPeriod33" labelFloat="true" layoutX="625.0" layoutY="321.0" prefHeight="30.0" prefWidth="114.0" promptText="Quantity" />
+                  <JFXTextField fx:id="clmGradingPeriod331" labelFloat="true" layoutX="626.0" layoutY="366.0" prefHeight="30.0" prefWidth="114.0" promptText="Quantity" />
+                  <JFXTextField fx:id="clmGradingPeriod332" labelFloat="true" layoutX="626.0" layoutY="411.0" prefHeight="30.0" prefWidth="114.0" promptText="Quantity" />
+                  <JFXTextField fx:id="clmGradingPeriod3311" labelFloat="true" layoutX="627.0" layoutY="463.0" prefHeight="30.0" prefWidth="114.0" promptText="Quantity" />
+                  <JFXTextField fx:id="clmGradingPeriod333" labelFloat="true" layoutX="760.0" layoutY="322.0" prefHeight="30.0" prefWidth="114.0" promptText="Amount" />
+                  <JFXTextField fx:id="clmGradingPeriod3312" labelFloat="true" layoutX="761.0" layoutY="366.0" prefHeight="30.0" prefWidth="114.0" promptText="Amount" />
+                  <JFXTextField fx:id="clmGradingPeriod3321" labelFloat="true" layoutX="761.0" layoutY="411.0" prefHeight="30.0" prefWidth="114.0" promptText="Amount" />
+                  <JFXTextField fx:id="clmGradingPeriod33111" labelFloat="true" layoutX="762.0" layoutY="463.0" prefHeight="30.0" prefWidth="114.0" promptText="Amount" />
+                  <Line endX="68.0" layoutX="483.0" layoutY="640.0" startX="-131.0" stroke="#005b39" strokeWidth="2.0" />
+                  <Text fill="#005b39" layoutX="351.0" layoutY="660.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Custumer's Signature" textAlignment="CENTER" wrappingWidth="200.9999934816733">
+                     <font>
+                        <Font name="Ubuntu Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Line endX="68.0" layoutX="991.0" layoutY="640.0" startX="-131.0" stroke="#005b39" strokeWidth="2.0" />
+                  <Text fill="#005b39" layoutX="859.0" layoutY="660.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INEH MIC" textAlignment="CENTER" wrappingWidth="200.9999934816733">
+                     <font>
+                        <Font name="Ubuntu Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3cf2ac" height="227.0" layoutX="894.0" layoutY="317.0" stroke="#3cf2ac" strokeType="INSIDE" strokeWidth="3.0" width="164.0" />
+                  <JFXTextField fx:id="clmGradingPeriod3331" labelFloat="true" layoutX="904.0" layoutY="322.0" prefHeight="30.0" prefWidth="144.0" promptText="Total" />
+                  <JFXTextField fx:id="clmGradingPeriod33121" labelFloat="true" layoutX="905.0" layoutY="366.0" prefHeight="30.0" prefWidth="141.0" promptText="Total" />
+                  <JFXTextField fx:id="clmGradingPeriod33211" labelFloat="true" layoutX="905.0" layoutY="411.0" prefHeight="30.0" prefWidth="142.0" promptText="Total" />
+                  <JFXTextField fx:id="clmGradingPeriod331111" labelFloat="true" layoutX="906.0" layoutY="463.0" prefHeight="30.0" prefWidth="141.0" promptText="Total" />
+                  <JFXTextField fx:id="clmGradingPeriod3311111" labelFloat="true" layoutX="907.0" layoutY="507.0" prefHeight="30.0" prefWidth="141.0" promptText="Sum Total" />
+                  <Line endX="367.0" endY="6.103515625E-5" layoutX="692.0" layoutY="357.0" startX="-342.0" startY="6.103515625E-5" stroke="#005b39" strokeWidth="2.0" />
+                  <Line endX="367.0" endY="6.103515625E-5" layoutX="692.0" layoutY="403.0" startX="-342.0" startY="6.103515625E-5" stroke="#005b39" strokeWidth="2.0" />
+                  <Line endX="367.0" endY="6.103515625E-5" layoutX="693.0" layoutY="448.0" startX="-342.0" startY="6.103515625E-5" stroke="#005b39" strokeWidth="2.0" />
+                  <Line endX="367.0" endY="6.103515625E-5" layoutX="692.0" layoutY="500.0" startX="-342.0" startY="1.220703125E-4" stroke="#005b39" strokeWidth="2.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

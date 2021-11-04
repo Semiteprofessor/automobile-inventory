@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="homePane" prefHeight="768.0" prefWidth="1366.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <Pane layoutX="-1.0" prefHeight="143.0" prefWidth="1367.0" style="-fx-background-color: #ff3b49;">
+         <children>
+            <Text fill="WHITE" layoutX="25.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INEH MIC AUTOMOBILE COMPANY LTD." textAlignment="CENTER" wrappingWidth="1315.4700527191162">
+               <font>
+                  <Font name="Ubuntu Bold" size="63.0" />
+               </font>
+            </Text>
+            <Text fill="#ff3b49" layoutX="178.0" layoutY="121.0" lineSpacing="200.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-center" text="Inventory Management System" textAlignment="CENTER" wrappingWidth="1000.0">
+               <font>
+                  <Font name="Ubuntu Bold" size="39.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" color="WHITE" height="35.07" radius="14.26" spread="1.0" width="23.97" />
+               </effect>
+            </Text>
+         </children>
+      </Pane>
+      <GridPane layoutX="286.0" layoutY="242.0" prefHeight="320.0" prefWidth="792.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.3333740234375" minWidth="264.0" prefWidth="264.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="336.0" minWidth="264.0" prefWidth="264.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="336.0" minWidth="264.0" prefWidth="264.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="213.33334350585938" minHeight="170.0" prefHeight="170.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="213.33334350585938" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="274.0" minHeight="170.0" prefHeight="170.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#btnDashboard" prefHeight="165.0" prefWidth="246.0" style="-fx-font-weight: bold; -fx-font-size: 20; -fx-font-family: ubuntu;" text="Dashboard">
+               <graphic>
+                  <ImageView fitHeight="111.0" fitWidth="132.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/88-512.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Ubuntu Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Lighting diffuseConstant="1.4" specularConstant="2.0" specularExponent="40.0" surfaceScale="5.0">
+                     <bumpInput>
+                        <Shadow blurType="ONE_PASS_BOX" color="WHITE" height="100.0" radius="49.5" width="100.0" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant azimuth="300.0" elevation="40.0" />
+                     </light>
+                  </Lighting>
+               </effect>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <styleClass>
+                  <String fx:value="hover-hand" />
+                  <String fx:value="hover_border1" />
+                  <String fx:value="back-color4" />
+                  <String fx:value="Button1" />
+                  <String fx:value="Button2" />
+                  <String fx:value="card" />
+               </styleClass>
+               <stylesheets>
+                  <URL value="@../css/School.css" />
+                  <URL value="@../css/main.css" />
+               </stylesheets>
+            </Button>
+            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#btnStaff" prefHeight="165.0" prefWidth="246.0" style="-fx-font-weight: bold; -fx-font-size: 20; -fx-font-family: ubuntu;" text="Staff" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="106.0" fitWidth="157.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/customers-512.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Ubuntu Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Lighting diffuseConstant="1.4" specularConstant="2.0" specularExponent="40.0" surfaceScale="5.0">
+                     <bumpInput>
+                        <Shadow blurType="ONE_PASS_BOX" color="WHITE" height="100.0" radius="49.5" width="100.0" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant azimuth="300.0" elevation="40.0" />
+                     </light>
+                  </Lighting>
+               </effect>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <styleClass>
+                  <String fx:value="hover-hand" />
+                  <String fx:value="hover_border1" />
+                  <String fx:value="back-color4" />
+                  <String fx:value="Button1" />
+                  <String fx:value="Button2" />
+                  <String fx:value="card" />
+               </styleClass>
+               <stylesheets>
+                  <URL value="@../css/School.css" />
+                  <URL value="@../css/main.css" />
+               </stylesheets>
+            </Button>
+            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#btnDepartment" prefHeight="165.0" prefWidth="246.0" style="-fx-font-weight: bold; -fx-font-size: 20; -fx-font-family: ubuntu;" text="Department" GridPane.columnIndex="2">
+               <graphic>
+                  <ImageView fitHeight="102.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/logo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Ubuntu Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Lighting diffuseConstant="1.4" specularConstant="2.0" specularExponent="40.0" surfaceScale="5.0">
+                     <bumpInput>
+                        <Shadow blurType="ONE_PASS_BOX" color="WHITE" height="100.0" radius="49.5" width="100.0" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant azimuth="300.0" elevation="40.0" />
+                     </light>
+                  </Lighting>
+               </effect>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <styleClass>
+                  <String fx:value="hover-hand" />
+                  <String fx:value="hover_border1" />
+                  <String fx:value="back-color4" />
+                  <String fx:value="Button1" />
+                  <String fx:value="Button2" />
+                  <String fx:value="card" />
+               </styleClass>
+               <stylesheets>
+                  <URL value="@../css/School.css" />
+                  <URL value="@../css/main.css" />
+               </stylesheets>
+            </Button>
+            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#btnAttendance" prefHeight="165.0" prefWidth="246.0" style="-fx-font-weight: bold; -fx-font-size: 20; -fx-font-family: ubuntu;" text="Inventory" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fitHeight="105.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/sport-car-icon-1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Ubuntu Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Lighting diffuseConstant="1.4" specularConstant="2.0" specularExponent="40.0" surfaceScale="5.0">
+                     <bumpInput>
+                        <Shadow blurType="ONE_PASS_BOX" color="WHITE" height="100.0" radius="49.5" width="100.0" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant azimuth="300.0" elevation="40.0" />
+                     </light>
+                  </Lighting>
+               </effect>
+               <styleClass>
+                  <String fx:value="hover-hand" />
+                  <String fx:value="hover_border1" />
+                  <String fx:value="back-color4" />
+                  <String fx:value="Button1" />
+                  <String fx:value="Button2" />
+                  <String fx:value="card" />
+               </styleClass>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <stylesheets>
+                  <URL value="@../css/School.css" />
+                  <URL value="@../css/main.css" />
+               </stylesheets>
+            </Button>
+            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#btnEvent" prefHeight="165.0" prefWidth="246.0" style="-fx-font-weight: bold; -fx-font-size: 20; -fx-font-family: ubuntu;" text="Management" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="102.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/ProjectManagement_Icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Ubuntu Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Lighting diffuseConstant="1.4" specularConstant="2.0" specularExponent="40.0" surfaceScale="5.0">
+                     <bumpInput>
+                        <Shadow blurType="ONE_PASS_BOX" color="WHITE" height="100.0" radius="49.5" width="100.0" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant azimuth="300.0" elevation="40.0" />
+                     </light>
+                  </Lighting>
+               </effect>
+               <styleClass>
+                  <String fx:value="hover-hand" />
+                  <String fx:value="hover_border1" />
+                  <String fx:value="back-color4" />
+                  <String fx:value="Button1" />
+                  <String fx:value="Button2" />
+                  <String fx:value="card" />
+               </styleClass>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <stylesheets>
+                  <URL value="@../css/School.css" />
+                  <URL value="@../css/main.css" />
+               </stylesheets>
+            </Button>
+            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#btnAdmin" prefHeight="165.0" prefWidth="246.0" style="-fx-font-weight: bold; -fx-font-size: 20; -fx-font-family: ubuntu;" text="Admin" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/Login.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Ubuntu Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Lighting diffuseConstant="1.4" specularConstant="2.0" specularExponent="40.0" surfaceScale="5.0">
+                     <bumpInput>
+                        <Shadow blurType="ONE_PASS_BOX" color="WHITE" height="100.0" radius="49.5" width="100.0" />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant azimuth="300.0" elevation="40.0" />
+                     </light>
+                  </Lighting>
+               </effect>
+               <styleClass>
+                  <String fx:value="hover-hand" />
+                  <String fx:value="hover_border1" />
+                  <String fx:value="back-color4" />
+                  <String fx:value="Button1" />
+                  <String fx:value="Button2" />
+                  <String fx:value="card" />
+               </styleClass>
+               <stylesheets>
+                  <URL value="@../css/School.css" />
+                  <URL value="@../css/main.css" />
+               </stylesheets>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

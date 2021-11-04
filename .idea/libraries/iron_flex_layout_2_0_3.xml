@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="iron-flex-layout-2.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/iron-flex-layout-2.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/iron-icon-2.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/iron-iconset-svg-2.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/iron-media-query-2.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/iron-meta-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/iron-resizable-behavior-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/license-checker-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/pdfjs-dist-2.2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/polymer-2.8.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/shadycss-1.9.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-control-state-mixin-2.1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-development-mode-detector-2.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-element-mixin-2.1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-item-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-list-box-1.2.0-alpha1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-list-mixin-2.2.2-alpha3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-lumo-styles-1.5.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-material-styles-1.2.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-overlay-3.2.14.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-pdf-viewer-1.0.0-alpha11.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-select-2.1.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-text-field-2.4.11.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-themable-mixin-1.5.0-alpha2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/vaadin-usage-statistics-2.0.10.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/webcomponentsjs-2.0.0-beta.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Folders/Libraries/pdfviewer/pdf-renderer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

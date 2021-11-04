@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="CalendarFX-master">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXRecurrence/target/apidocs" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXView/target/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXApp/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXAssembly/target/calendarfx-8.5.0-src/src/view/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXExperimental/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXGoogle/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXGoogle/src/test/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXRecurrence/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXRecurrence/src/test/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXSampler/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXView/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXView/src/test/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXWeather/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Folders/Libraries/CalendarFX-master/CalendarFXiCal/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

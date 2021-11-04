@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" stylesheets="@../../css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.school.SchoolInfoController">
+   <children>
+      <Pane layoutX="-7.0" prefHeight="101.0" prefWidth="1375.0" style="-fx-background-color: #003cc7;" stylesheets="@../../css/main.css">
+         <children>
+            <Text fill="WHITE" layoutX="261.0" layoutY="65.0" lineSpacing="200.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-center" text="School Information" wrappingWidth="635.9999847412109">
+               <font>
+                  <Font name="Ubuntu Bold" size="67.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="265.0" layoutY="90.0" lineSpacing="200.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-center" text="School Management" wrappingWidth="233.3333511352539">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="105.0" fitWidth="165.0" layoutX="949.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/1-512.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnBack" layoutX="8.0" layoutY="2.0" mnemonicParsing="false" onAction="#btnBackHomeOnAction" prefHeight="47.0" prefWidth="45.0" style="-fx-background-color: transparent;" stylesheets="@../../css/School.css">
+               <graphic>
+                  <ImageView fitHeight="93.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/back-button-icon-png-8.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <styleClass>
+                  <String fx:value="hover-hand" />
+                  <String fx:value="hover-color" />
+               </styleClass>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fitHeight="477.0" fitWidth="677.0" layoutX="7.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/school-building.jpg" />
+         </image>
+      </ImageView>
+      <GridPane layoutX="702.0" layoutY="109.0" prefHeight="501.0" prefWidth="639.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="574.0" minWidth="10.0" prefWidth="566.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="10.0" prefWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="583.0" minWidth="10.0" prefWidth="567.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="50.0" minHeight="5.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="20.0" minHeight="5.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="5.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="20.0" minHeight="5.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="5.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="20.0" minHeight="5.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="5.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="20.0" minHeight="5.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="5.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="20.0" minHeight="5.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="5.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="20.0" minHeight="5.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="5.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="2.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="2.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="2.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="2.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <JFXTextField fx:id="clmSchoolAddress" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="School Address" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmClasses" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Classes Available" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmSchoolType" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="267.0" promptText="Type of School" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmExamID" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="School Exam ID No" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmPostalCode" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Postal Code" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmProvince" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Province" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmPrincipal" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Principal Name" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="12">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmEduZone" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Educational Zone" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXDatePicker fx:id="clmEstablished" prefHeight="45.0" prefWidth="485.0" promptText="Date Established" GridPane.columnIndex="2" />
+            <JFXTextField fx:id="clmID" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Staff No" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmPrincipalNumber" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Principal Number" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="14">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmEmail" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Email Address" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmID1" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Staff No" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmID2" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Staff No" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmID3" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Staff No" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmSchoolName" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="School Name" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmTotalStaff" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Total Staff" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="20">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmTotalStudent" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Total Student" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="18">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmLandArea" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Total Land Area" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="16">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmLocation" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Location" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="20">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmState" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="State" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="18">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmPoliceArea" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Police Area" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="16">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmMunicipal" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Municpal" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="14">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmEduDistrict" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Educational District" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmAdminDistrict" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Administrative District" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="12">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmSchoolID" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="School ID No" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmLGA" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="Local Government Area" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="22">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="clmPMB" focusColor="WHITE" labelFloat="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="524.0" promptText="P.M.B" style="-fx-background-color: white;" unFocusColor="WHITE" GridPane.rowIndex="22">
+               <font>
+                  <Font name="Ubuntu Regular" size="20.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </GridPane>
+      <Text fontSmoothingType="LCD" layoutX="8.0" layoutY="587.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caleb British International School is a privately owned co-educational Day and Boarding Christian school. &#10;It is an offshoot of Caleb Group of Schools which was founded in 1986. CBIS operates on the principles of &#10;outstanding academic, Christian and moral standards for students between the ages of 11 and 17 years. &#10;Students of CBIS receive education of the highest standard and are fully prepared to secure their academic &#10;future. CBIS is located in a serene, strategic and beautiful area in the heart of Lagos. The School is easily &#10;accessible from most parts of metropolitan Lagos. It is an environment where students of different cultures &#10;come together in the spirit of competition and determination, combined with friendship, fellowship and support.">
+         <font>
+            <Font name="Arial Unicode MS" size="14.0" />
+         </font>
+      </Text>
+      <Button layoutX="1128.0" layoutY="645.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#btnPrint" prefHeight="50.0" prefWidth="143.0" stylesheets="@../../css/School.css" text="Print">
+         <font>
+            <Font name="Ubuntu Bold" size="22.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="53.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/icons8_Print_96px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <Lighting diffuseConstant="1.21" specularConstant="0.0" specularExponent="40.0" surfaceScale="10.0">
+               <bumpInput>
+                  <Shadow height="34.345" radius="17.04375" width="35.83" />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="199.88" elevation="91.05" />
+               </light>
+            </Lighting>
+         </effect>
+         <styleClass>
+            <String fx:value="card" />
+            <String fx:value="hover-color2" />
+         </styleClass>
+      </Button>
+      <Button layoutX="782.0" layoutY="645.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#btnUpdate" prefHeight="50.0" prefWidth="134.0" stylesheets="@../../css/School.css" text="Update">
+         <font>
+            <Font name="Ubuntu Bold" size="22.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="62.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/upgrade-logo-png-6.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <Lighting diffuseConstant="1.21" specularConstant="0.0" specularExponent="40.0" surfaceScale="10.0">
+               <bumpInput>
+                  <Shadow height="34.345" radius="17.04375" width="35.83" />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="199.88" elevation="91.05" />
+               </light>
+            </Lighting>
+         </effect>
+         <styleClass>
+            <String fx:value="card" />
+            <String fx:value="hover-color1" />
+         </styleClass>
+      </Button>
+      <Button layoutX="955.0" layoutY="645.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#btnAdd" prefHeight="50.0" prefWidth="134.0" stylesheets="@../../css/School.css" text="Add">
+         <font>
+            <Font name="Ubuntu Bold" size="22.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/plus-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <Lighting diffuseConstant="1.21" specularConstant="0.0" specularExponent="40.0" surfaceScale="10.0">
+               <bumpInput>
+                  <Shadow height="34.345" radius="17.04375" width="35.83" />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="199.88" elevation="91.05" />
+               </light>
+            </Lighting>
+         </effect>
+         <styleClass>
+            <String fx:value="card" />
+            <String fx:value="hover-color1" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

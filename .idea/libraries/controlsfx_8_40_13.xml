@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="controlsfx-8.40.13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/School-Management-System-JavaFX-master/lib/controlsfx-8.40.13.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/School-Management-System-JavaFX-master/lib/fontawesomefx-commons-8.13.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/School-Management-System-JavaFX-master/lib/fontawesomefx-fontawesome-4.7.0-1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/School-Management-System-JavaFX-master/lib/joda-time-2.9.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/School-Management-System-JavaFX-master/lib/recurrence-8.4.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/School-Management-System-JavaFX-master/lib/view-8.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

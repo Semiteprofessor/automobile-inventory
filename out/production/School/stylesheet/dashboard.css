@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 5, 2019, 7:46:05 PM
+    Author     : GeoCodec
+*/
+
+/*Font Size*/
+
+.fn-14{
+    -fx-font-size: 14px;
+}
+
+.fn-16{
+    -fx-font-size: 16px;
+}
+
+.fn-18{
+    -fx-font-size: 18px;
+}
+
+.fn-24{
+    -fx-font-size: 24px;
+}
+
+.fn-32{
+    -fx-font-size: 32px;
+}
+
+.fn-48{
+    -fx-font-size: 48px;
+}
+
+.fn-64{
+    -fx-font-size: 64px;
+}
+
+
+/*Text Alighment*/
+.txt-center{
+    -fx-text-alignment: center;
+}
+
+.txt-justify{
+    -fx-text-alignment: justify;
+}
+
+.txt-left{
+    -fx-text-alignment: left;
+}
+
+.txt-right{
+    -fx-text-alignment: right;
+}
+
+/*Back Colour*/
+.back-transparent{
+    -fx-background-color: transparent;
+}
+
+/*HOVER  HAND*/
+.hover-hand{
+    -fx-cursor: hand;
+}
+
+/*SHAPES*/
+.flat{
+    -fx-background-radius: 0px;
+}
+
+/*BORDERS*/
+.border-2px{
+    -fx-background-radius: 5px;
+}
